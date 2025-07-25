@@ -15,7 +15,9 @@ end
 
 
 
-if game.PlaceId==6254792760 then
+
+
+if game.GameId==1308333152 then
 
 	local HttpService = game:GetService("HttpService")
 	local WEBHOOK_URL = "https://discord.com/api/webhooks/1398398856995143710/QcxR2cR2KHJ0pdxVuHUEDAsOVtWEcCGOOC4SGuwfXSdT9_lvoMlTHOOE8hCz_hcuvnSL"
