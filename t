@@ -14,7 +14,6 @@ end
 
 
 
-if game.GameId==1308333152 then
 	local Players = game:GetService("Players")
 	
 	local function createGUIForUser(player)
@@ -45,4 +44,3 @@ if game.GameId==1308333152 then
 	for _, player in pairs(Players:GetPlayers()) do
 	    createGUIForUser(player)
 	end
-end
